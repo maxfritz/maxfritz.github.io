@@ -67,6 +67,9 @@
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron" id="home1">
+        <div class="box effect5">
+          <img src="https://github.com/maxfritz/maxfritz.github.io/blob/master/IMG_2660.JPG.jpg"/>
+        </div>
         <p>Data Science Club is a student organization at the The University of Texas at Dallas. 
           Started in the summer of ‘17 under the Business Analytics program at Naveen Jindal School of Management, 
           Data Science Club (abbreviated as DSC) strives to be the single focal point of overall development and growth of 
@@ -79,6 +82,46 @@
       </div>
       <script>
  </script>
+      
+      <style>
+        .box h3{
+        text-align:center;
+       position:relative;
+        top:80px;
+      }
+      .box {
+          width:70%;
+          height:200px;
+          background:#FFF;
+          margin:40px auto;
+      }
+
+      .effect5
+      {
+        position: relative;
+      }
+      .effect5:before, .effect5:after
+      {
+        z-index: -1;
+        position: absolute;
+        content: "";
+        bottom: 25px;
+        left: 10px;
+        width: 50%;
+        top: 80%;
+        max-width:300px;
+        background: #777;
+        box-shadow: 0 35px 20px #777;
+        transform: rotate(-8deg);
+      }
+      .effect5:after
+      {
+        transform: rotate(8deg);
+        right: 10px;
+        left: auto;
+      }
+      </style>
+      
     </div> <!-- /container -->
 
   </body>
