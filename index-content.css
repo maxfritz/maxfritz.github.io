@@ -3,15 +3,13 @@
 
 .flex-container {
   padding: 0;
-  margin: 0;
+  margin-top: 100px;
   list-style: none;
-
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
 }
@@ -19,9 +17,9 @@
 .flex-item {
   background: #ADD8E6;
   padding: 5px;
-  width: 400px;
-  height: 350px;
-  margin-top: 100px;
+  width: 300px;
+  height: 225px;
+  margin-top: 10px;
   box-shadow: 10px 10px 10px #dddddd;
   border-radius: 15px 50px 30px 5px;
   line-height: 150px;
