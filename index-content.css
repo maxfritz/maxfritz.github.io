@@ -3,7 +3,8 @@
 
 .flex-container {
   padding: 0;
-  margin-top: 100px;
+  margin-top: 6%;
+  margin-left: 19%;
   list-style: none;
   display: -webkit-box;
   display: -moz-box;
@@ -11,21 +12,37 @@
   display: -webkit-flex;
   display: flex;
   -webkit-flex-flow: row wrap;
-  justify-content: space-around;
 }
 
 .flex-item {
-  background: #ADD8E6;
-  padding: 5px;
-  width: 300px;
-  height: 225px;
+  background: #ffffff;
+  padding-left: 2%;
+  width: 100%;
+  height: 100%;
   margin-top: 10px;
-  box-shadow: 10px 10px 10px #dddddd;
-  border-radius: 15px 50px 30px 5px;
-  line-height: 150px;
+  margin-right: 10px;
+  box-shadow: 0px 0px 0px 1px #dddddd;
+  border-radius: 5px 5px 5px 5px;
+  line-height: 3vw;
   color: white;
-  font-weight: bold;
-  font-size: 3em;
+  font-size: 3vw;
+  text-align: left;
+  font-family: 'Montserrat';
+  overflow: hidden;
+}
+
+.flex-item1 {
+  background: #dbdbdb;
+  padding: 10%;
+  width: 100%;
+  height: 30%;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0px 0px 0px 1px #dddddd;
+  line-height: 10%;
+  color: black;
+  font-size: 3vw;
   text-align: center;
-  font-family: 'Fascinate Inline'
+  font-family: 'Montserrat'
 }
