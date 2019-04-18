@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700');
 @import "compass/css3";
 
-.topbar{
+.topbar_but_only_if_you_are_looking_at_the_page_sideways {
   padding-top: 5%;
   height:100%;
   width:18%;
@@ -12,17 +12,17 @@
   top:0;
   left:0;
   background-color: #ffffff;
-  opacity: 0.90;
+  opacity: 1;
   box-shadow: 0px 1px 1px #aaaaaa;
   text-align: left;
 }
 
-.topbar img {
+.topbar_but_only_if_you_are_looking_at_the_page_sideways img {
   padding: 0px 0px 0px 0px;
   margin: 0 0 0 0;
 }
 
-.topbar a {
+.topbar_but_only_if_you_are_looking_at_the_page_sideways a {
   margin-top: 0%;
   margin-bottom: 0%;
   margin-left: 0%;
@@ -42,14 +42,14 @@
 
 
 /* When you mouse over the navigation links, change their color */
-.topbar a:hover {
+.topbar_but_only_if_you_are_looking_at_the_page_sideways a:hover {
   background-color: #444444;
   color: #f1f1f1;
 
 }
 
 /* Style page content */
-.main {
+.you_should_really_use_shorter_and_more_meaningful_class_names {
 /* Same as the width of the sidebar */
   padding: 0px 0px;
   background-color: #eeffff;
@@ -63,12 +63,46 @@
     height: 100%;
     z-index: -1;
 }
+.its_a_div_and_its_only_purpose_is_to_hold_my_picture_on_the_home_screen {
+  height:10%;
+  width:100%;
+}
 
+.alright_ive_told_a_lie_it_does_so_much_more {
+  width:50%;
+  display: block;
+  margin-left: 20%;
+  position:relative;
+}
+.some_fodder_to_make_me_sound_cool {
+  font-family:'Roboto';
+  font-weight: 50;
+  padding-left: 20px;
+  display: inline-block;
+  margin-left: 0;
+  margin-right: 0;
+  width:60%;
+  height:100%;
+}
+
+.its_a_picture_of_me_and_its_on_the_home_screen {
+  border-radius: 25%;
+  border-style: solid;
+  border-color: gray;
+  border-width: thin;
+  box-shadow: 0px 5px 10px 0px #000000;
+  height: 120px;
+
+
+}
 .github_logo{
     filter: invert(0%) ;
 }
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+@media screen and (max-height: 600px) {
+  .topbar_but_only_if_you_are_looking_at_the_page_sideways{padding-top: 15px;}
+  .topbar_but_only_if_you_are_looking_at_the_page_sideways a {font-size: 18px;}
+  .github_logo{
+      filter: invert(100%) ;
+  }
 }
