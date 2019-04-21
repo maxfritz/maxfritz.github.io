@@ -12,6 +12,7 @@
   display: -webkit-flex;
   display: flex;
   -webkit-flex-flow: row wrap;
+  opacity: 0.9;
 }
 
 .flex-item {
@@ -29,6 +30,7 @@
   text-align: left;
   font-family: 'Montserrat';
   overflow: hidden;
+  opacity: 1;
 }
 
 .flex-item_and_maybe_it_has_some_summary_information_who_knows{
@@ -45,4 +47,5 @@
   font-size: 3vw;
   text-align: center;
   font-family: 'Montserrat'
+  opacity: 1;
 }

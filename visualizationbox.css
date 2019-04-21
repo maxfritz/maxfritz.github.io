@@ -1,0 +1,13 @@
+#visbox {
+  position:absolute;
+  top:10%;
+  left:20%;
+  margin: 3px 3px 3px 3px;
+ padding: 0;
+ border:none;
+ border-radius: 5px 5px 5px 5px;
+ width: 60%;
+height: 70%;
+background-color: #ffffff;
+box-shadow: 2px 0px 2px 3px #000000;
+}
